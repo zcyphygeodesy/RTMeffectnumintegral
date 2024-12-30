@@ -6,6 +6,7 @@ The land-sea residual terrain effect here is defined as the short-wave and ultra
 Since the normal gravity field keeps unchanged, the residual terrain effect on the gravity disturbance and gravity anomaly is always equal to the residual terrain effect on gravity.
     The terrain effect on field element is equal to the negative value of the classic terrain correction, such as the local terrain effect is equal to the negative local terrain correction.
     Compared with the local terrain effect and terrain Helmert condensation, the residual terrain effect is more conducive to modelling of geoid (height anomaly), suitable for processing of vertical deflection data such as for satellite altimetry data, but not conducive to processing of (disturbing) gravity gradient data.
+![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAg7uzltwYoqp6GmAEwpQ047gg.jpg)
 ## [Main program for test entrance]
     RTMeffectnumintegral.f90
     The record format of the input calculation point file: ID (point no / point name), longitude (decimal degrees), latitude (decimal degrees), ellipsoidal height (m)......
@@ -40,4 +41,6 @@ Since the normal gravity field keeps unchanged, the residual terrain effect on t
     1.4.1 Format convention for geodetic data file
     7.6.2 Integral algorithms of residual terrain effects on various field elements outside the geoid
     7.1(4) Low-dgree Legendre function and its first and second derivative algorithms
-DOS executable test file and all input and output data.
+The zip compression package includes the test project in visual studio 2017 - intel fortran integrated environment, DOS executable test file and all input and output data.
+![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAg7uzltwYouuCkIzClDTjuCA.jpg)
+![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAg7uzltwYoqNizwAIwpQ047gg.jpg)
