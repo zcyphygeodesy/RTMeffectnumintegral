@@ -1,11 +1,11 @@
 ## Fortran codes for numerical integral of landsea residual terrain effects on various field elements
 https://www.zcyphygeodesy.com/en/h-nd-132.html
 ## [Algorithm purpose]
-    Using the rigorous numerical integral algorithm, from the high-resolution land-sea terrain model, low-pass land-sea terrain model and ellipsoidal height grid of the land-sea surface, compute the residual terrain effects on the height anomaly (m), gravity (anomaly/disturbance, mGal), vertical deflection (ʺ, to south, to west) or (disturbing) gravity gradient (E, radial) on or outside the geoid.
-The land-sea residual terrain effect here is defined as the short-wave and ultra-short-wave components of the land-sea complete Bouguer effect.
-Since the normal gravity field keeps unchanged, the residual terrain effect on the gravity disturbance and gravity anomaly is always equal to the residual terrain effect on gravity.
-    The terrain effect on field element is equal to the negative value of the classic terrain correction, such as the local terrain effect is equal to the negative local terrain correction.
-    Compared with the local terrain effect and terrain Helmert condensation, the residual terrain effect is more conducive to modelling of geoid (height anomaly), suitable for processing of vertical deflection data such as for satellite altimetry data, but not conducive to processing of (disturbing) gravity gradient data.
+&emsp;```Using the rigorous numerical integral algorithm, from the high-resolution land-sea terrain model, low-pass land-sea terrain model and ellipsoidal height grid of the land-sea surface, compute the residual terrain effects on the height anomaly (m), gravity (anomaly/disturbance, mGal), vertical deflection (ʺ, to south, to west) or (disturbing) gravity gradient (E, radial) on or outside the geoid.```  
+&emsp;```The land-sea residual terrain effect here is defined as the short-wave and ultra-short-wave components of the land-sea complete Bouguer effect.
+Since the normal gravity field keeps unchanged, the residual terrain effect on the gravity disturbance and gravity anomaly is always equal to the residual terrain effect on gravity.```  
+&emsp;```The terrain effect on field element is equal to the negative value of the classic terrain correction, such as the local terrain effect is equal to the negative local terrain correction.```  
+&emsp;```Compared with the local terrain effect and terrain Helmert condensation, the residual terrain effect is more conducive to modelling of geoid (height anomaly), suitable for processing of vertical deflection data such as for satellite altimetry data, but not conducive to processing of (disturbing) gravity gradient data.```
 ![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAg7uzltwYoqp6GmAEwpQ047gg.jpg)
 ## [Main program for test entrance]
     RTMeffectnumintegral.f90
